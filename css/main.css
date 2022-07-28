@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+}
+
+img {
+  width: 2rem;
+  order: -1;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  text-decoration: none;
+}
